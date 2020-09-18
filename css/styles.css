@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #e3fdfd;
+  color: #40514E;
+  font-size: 1.2rem;
+  font-family: Helvetica, fantasy,Verdana,Geneva,sans-serif, Arial, Calibri, Helvetica;
+}
+
+h1 {
+  width: 40%;
+  margin: auto auto 0 auto;
+
+  padding-top: 10rem;
+  font-family: 'Satisfy', cursive;
+  font-size: 5.25rem;
+  color:#66BFBF;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  color:#66BFBF;
+  font-weight: normal;
+  line-height: 2;
+  margin-top:15px;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  color:#11999E;
+  font-size: 1.5rem;
+  margin-top:15px;
+  margin-bottom: 0;
+}
+
+a{
+  color:#11999E;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:hover{
+color: #a6e3e9;
+}
+
+p{
+  margin: 0 auto 0 auto;
+}
+
+/*CLASS SELECTOR*/
+.topcontainer {
+  background-color: #d2f6c5;
+  position: relative;
+  /*everything in this <div> follows this as the parent*/
+  /*padding-top: 20rem; -- padding pushes text down too much*/
+  height:62rem;
+}
+
+.mountain{
+  height: 40rem;
+  width:auto;
+  position: absolute;
+  right:26rem;
+  bottom: 0;
+  top: 22rem;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  height: 10%;
+  width: 15%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 45%;
+  height: 10%;
+  width: 15%;
+}
+
+.image_0{
+  height: 10%;
+  width: 15%;
+  margin-top: 2%;
+}
+
+.intro{
+  width: 45%;
+  margin:0 auto 0 auto;
+}
+
+.image_1{
+  margin-right: 30px;
+  height: 7.4rem;
+  width: 7.4rem;
+  float: left;
+}
+
+.image_2{
+  margin-left: 30px;
+  height: 7.4rem;
+  width: 7.4rem;
+  float: right;
+}
+
+.skill-row{
+  width: 50%;
+  margin:2% auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.dottedline{
+  border-style: dotted none none;
+  border-width: 7px;
+  width: 7%;
+  color: #EAF6F6;
+}
+
+.copyrightowner{
+  margin: 3.3% auto 0 auto;
+  color:#EAF6F6;
+}
+
+.bottom-container{
+  background-color:#66BFBF;
+  padding: 5%;
+}
+
+/**BUTTON COPY FROM CSSBUTTONCREATOR.COM***/
+.myButton {
+	box-shadow:inset 0 1px 0 0 #91b8b3;
+	background:linear-gradient(to bottom, #66bfbf 5%, #289993 100%);
+	background-color:#66bfbf;
+	border-radius:14px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:14px 27px;
+	text-decoration:none;
+	text-shadow:0 -1 0 #2b665e;
+  margin: 60px auto 65px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #289993 5%, #66bfbf 100%);
+	background-color:#289993;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
